@@ -1,0 +1,10 @@
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\bin\Debug\Contador.exe.config
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\bin\Debug\Contador.exe
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\bin\Debug\Contador.pdb
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\obj\Debug\Contador.csprojAssemblyReference.cache
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\obj\Debug\Contador.Form1.resources
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\obj\Debug\Contador.Properties.Resources.resources
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\obj\Debug\Contador.csproj.GenerateResource.cache
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\obj\Debug\Contador.csproj.CoreCompileInputs.cache
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\obj\Debug\Contador.exe
+C:\Users\Noe Villegas\Documents\ADSI\Cinco Tema de Web\ASP.NET\Segundo Requerimiento\Contador\Contador\obj\Debug\Contador.pdb

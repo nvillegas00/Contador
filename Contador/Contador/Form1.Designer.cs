@@ -28,13 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnSuma = new System.Windows.Forms.Button();
+            this.txtAumento = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btnSuma
+            // 
+            this.btnSuma.Location = new System.Drawing.Point(506, 108);
+            this.btnSuma.Name = "btnSuma";
+            this.btnSuma.Size = new System.Drawing.Size(75, 23);
+            this.btnSuma.TabIndex = 0;
+            this.btnSuma.Text = "Aumentar";
+            this.btnSuma.UseVisualStyleBackColor = true;
+            this.btnSuma.Click += new System.EventHandler(this.btnSuma_Click);
+            // 
+            // txtAumento
+            // 
+            this.txtAumento.Location = new System.Drawing.Point(389, 108);
+            this.txtAumento.Name = "txtAumento";
+            this.txtAumento.Size = new System.Drawing.Size(100, 20);
+            this.txtAumento.TabIndex = 1;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtAumento);
+            this.Controls.Add(this.btnSuma);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnSuma;
+        private System.Windows.Forms.TextBox txtAumento;
     }
 }
 

@@ -12,9 +12,17 @@ namespace Contador
 {
     public partial class Form1 : Form
     {
+        public int nro;
         public Form1()
         {
             InitializeComponent();
+            txtAumento.Text = "0";
+        }
+
+        private void btnSuma_Click(object sender, EventArgs e)
+        {
+            nro++;
+            txtAumento.Text = nro.ToString();
         }
     }
 }
