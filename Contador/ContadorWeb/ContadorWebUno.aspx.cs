@@ -12,13 +12,21 @@ namespace ContadorWeb
         private int nro;
         protected void Page_Load(object sender, EventArgs e)
         {
-            txtAumentar.Text = "0";
+            if (!IsPostBack)
+            {
+                txtAumentar.Text = "";
+            }
+            
         }
 
         protected void btnAumentar_Click(object sender, EventArgs e)
         {
-            nro++;
-            txtAumentar.Text = nro.ToString(); 
+            if (ViewState["nro"]!= null)
+            {
+                nro = (int)ViewState["nro"] + 1; //  (int) -> función cas. 
+            }
+            txtAumentar.Text = nro.ToString();
+            ViewState["nro"] = nro;
         }
     }
 }
